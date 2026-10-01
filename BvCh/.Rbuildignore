@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^.*\.out\.txt$
+^BvCh\.Rproj$
+^BvCh-.*\.tar\.gz$
+^BvCh\.Rcheck$
+^\.\.

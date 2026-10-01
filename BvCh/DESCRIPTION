@@ -1,0 +1,28 @@
+Package: BvCh
+Type: Package
+Title: Bivariate Chen Distribution: Density, Survival, Hazard, Plots and
+        Estimates
+Version: 0.1.0
+Authors@R: c(
+    person("Mukul", "Bijalwan", role = "aut",
+           comment = "Orchid ID: https://orcid.org/0009-0001-3040-6912"),
+    person(given = "Puneet Kumar", family = "Gupta",
+           email = "puneetstat999@gmail.com", role = c("aut", "cre")))
+Description: Probability density, survival and hazard functions, random
+    generation, graphical displays and maximum likelihood estimation for
+    bivariate Chen type models. Three constructions are covered: the
+    Marshall-Olkin type Bivariate Chen distribution with a singular component
+    on the diagonal, the Bivariate Extended Chen distribution, and the
+    Bivariate Inverse FGM Chen distribution obtained through the Inverse FGM
+    copula with Chen marginals. Univariate Chen density, distribution,
+    quantile, survival, hazard and random generation routines are obtained
+    from the 'reliaR' package.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: reliaR (>= 0.2), stats, graphics, grDevices
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/puneetstat999/BvCh
+BugReports: https://github.com/puneetstat999/BvCh/issues
+Config/roxygen2/version: 8.1.0

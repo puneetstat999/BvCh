@@ -1,0 +1,11 @@
+# Keep line endings stable: store LF in the repository and check out LF.
+# This matters for an R package -- "R CMD build" performs a
+# "checking for LF line-endings" step, and CRLF churn on Windows would
+# otherwise produce noisy whole-file diffs.
+* text=auto eol=lf
+
+# Binary assets: never translate
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gz  binary

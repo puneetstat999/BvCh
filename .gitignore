@@ -1,0 +1,41 @@
+# R session / workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+*.Rproj
+.Rproj.user/
+
+# R package build artefacts (regenerate with R CMD build)
+*.Rcheck/
+*.Rpkg/
+*.tar.gz
+inst/doc/
+
+# LaTeX manual scratch
+manual_out/
+*.log
+*.aux
+*.out
+*.toc
+*.idx
+*.ilg
+*.ind
+*.fls
+*.fdb_latexmk
+
+# scratch
+vignette_out/
+.Rbuildignore.bak
+
+# OS / installer noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.exe
+*.msi
+*.dll
+
+# NOTE: BvCh-manual.pdf and BvCh-Ex.pdf are intentionally NOT ignored --
+# they are the reference manual and the example graphics, kept in the repo.
