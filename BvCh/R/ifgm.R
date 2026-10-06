@@ -162,8 +162,9 @@ rho_ifgm <- function(gamma, omega) {
 #' reliability function and density are
 #' \deqn{R(x,y)=C(F_X(x),F_Y(y))-F_X(x)-F_Y(y)+1,}
 #' \deqn{f(x,y)=c(F_X(x),F_Y(y))\,f_X(x)\,f_Y(y),}
-#' where \eqn{f_X=\link[reliaR]{dchen}(x,\beta_1,\theta_1)} and
-#' \eqn{f_Y=\link[reliaR]{dchen}(y,\beta_2,\theta_2)}. The hazard function is
+#' where \eqn{f_X = dchen(x,\beta_1,\theta_1)} and
+#' \eqn{f_Y = dchen(y,\beta_2,\theta_2)}, where \code{dchen} is
+#' \code{\link[reliaR]{dchen}}. The hazard function is
 #' the ratio \eqn{f/R}.
 #'
 #' @section Remarks:

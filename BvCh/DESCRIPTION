@@ -11,9 +11,9 @@ Authors@R: c(
 Description: Probability density, survival and hazard functions, random
     generation, graphical displays and maximum likelihood estimation for
     bivariate Chen type models. Three constructions are covered: the
-    Marshall-Olkin type Bivariate Chen distribution with a singular component
+    Bivariate Chen distribution with a singular component
     on the diagonal, the Bivariate Extended Chen distribution, and the
-    Bivariate Inverse FGM Chen distribution obtained through the Inverse FGM
+    Bivariate Inverse copula Chen distribution obtained through an inverse
     copula with Chen marginals. Univariate Chen density, distribution,
     quantile, survival, hazard and random generation routines are obtained
     from the 'reliaR' package.
